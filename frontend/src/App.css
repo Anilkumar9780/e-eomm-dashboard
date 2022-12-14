@@ -1,0 +1,138 @@
+.nav-ul li {
+  display: inline-block;
+  padding: 10px;
+  background-color: skyblue;
+
+}
+
+.nav-ul li a {
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.nav-ul {
+  padding: 5px;
+  margin: 0;
+  background-color: skyblue;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+  height: 70px;
+  /* font-size: 30px; */
+}
+
+.register-from {
+  margin-left: 30%;
+}
+
+.inputbox {
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid skyblue;
+}
+
+.signupbutton {
+  margin: 20px;
+  padding: 7px;
+  width: 320px;
+  background-color: skyblue;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.login-from {
+  margin-left: 30%;
+}
+
+.loginbutton {
+  margin: 20px;
+  padding: 7px;
+  width: 320px;
+  background-color: skyblue;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+h1 {
+  margin-left: 30px;
+}
+
+.nav-right {
+  text-align: right;
+}
+
+.nav-img {
+  width: 45px;
+  float: left;
+  border-radius: 50%;
+  margin-top: 3px;
+  margin-left: 20px;
+}
+
+.invalid-msg {
+  color: red;
+  margin-top: -20px;
+  margin-left: 24px;
+  display: block;
+}
+
+.product-list {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.product-list ul li {
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 200px;
+}
+.product-list ul{
+  margin: 0;
+}
+
+.search-box{
+  width: 500px;
+  margin: 20px;
+  height: 30px;
+  border: 1px solid skyblue;
+  padding-left: 20px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
